@@ -15,7 +15,7 @@ with test.bat verify if arm-none-eabi-as is functional will response with:
       
 test2.bat  >>  arm-none-eabi-as -g prog1.S -o prog1.o  
 
-test3.bat  >>  arm-none-eabi-as -g prog1.S -o prog1.o  
+arm-none-eabi-ld prog1.o -o prog1.elf -Ttext=0x8000000
 
 test4.bat  >>  arm-none-eabi-as -g prog1.S -o prog1.o      
 
