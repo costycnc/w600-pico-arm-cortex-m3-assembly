@@ -17,5 +17,7 @@ test1.bat  >>  arm-none-eabi-as -g prog1.S -o prog1.o
 
 test2.bat  >>  arm-none-eabi-ld prog1.o -o prog1.elf -Ttext=0x8000000
 
-test4.bat  >>  arm-none-eabi-as -g prog1.S -o prog1.o      
+test4.bat  >>  arm-none-eabi-objcopy -O binary prog1.elf prog1.bin
+
+
 
