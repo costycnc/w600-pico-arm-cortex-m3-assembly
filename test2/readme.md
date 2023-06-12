@@ -13,9 +13,9 @@ with test.bat verify if arm-none-eabi-as is functional will response with:
       This program has absolutely no warranty.
       This assembler was configured for a target of `arm-none-eabi'.
       
-test2.bat  >>  arm-none-eabi-as -g prog1.S -o prog1.o  
+test1.bat  >>  arm-none-eabi-as -g prog1.S -o prog1.o  
 
-arm-none-eabi-ld prog1.o -o prog1.elf -Ttext=0x8000000
+test2.bat  >>  arm-none-eabi-ld prog1.o -o prog1.elf -Ttext=0x8000000
 
 test4.bat  >>  arm-none-eabi-as -g prog1.S -o prog1.o      
 
