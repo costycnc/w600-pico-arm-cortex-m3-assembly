@@ -19,5 +19,7 @@ test2.bat  >>  arm-none-eabi-ld prog1.o -o prog1.elf -Ttext=0x8000000
 
 test4.bat  >>  arm-none-eabi-objcopy -O binary prog1.elf prog1.bin
 
+dissasembly.bat >>  arm-none-eabi-objdump -D -bbinary -marm prog1.bin -Mforce-thumb > output.s
+
 
 
