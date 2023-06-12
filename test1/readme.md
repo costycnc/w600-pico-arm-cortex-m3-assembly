@@ -2,7 +2,7 @@ I insert these files in C:\Users\-name-\AppData\Local\Arduino15\packages\w600\to
 
 So... i installed first package w600-pico in arduino
 
-i compile an empty code asm :
+i compile an empty code asm (prog1.s):
 
       .syntax unified
       .cpu cortex-m3
