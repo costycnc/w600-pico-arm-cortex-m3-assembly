@@ -12,4 +12,10 @@ with test.bat verify if arm-none-eabi-as is functional will response with:
       the GNU General Public License version 3 or later.
       This program has absolutely no warranty.
       This assembler was configured for a target of `arm-none-eabi'.
+      
+test2.bat  >>  arm-none-eabi-as -g prog1.S -o prog1.o  
+
+test3.bat  >>  arm-none-eabi-as -g prog1.S -o prog1.o  
+
+test4.bat  >>  arm-none-eabi-as -g prog1.S -o prog1.o      
 
