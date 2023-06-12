@@ -4,5 +4,5 @@ So... i installed first package w600-pico in arduino
 
 i compile asm file from https://gist.github.com/BobBurns/bb601d3432650073a8b4
 
-with 
+with test.bat verify if n
 
