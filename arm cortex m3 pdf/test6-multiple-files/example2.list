@@ -1,0 +1,26 @@
+
+example2.out:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <vectors_table>:
+   0:	20000800 	.word	0x20000800
+   4:	00000011 	.word	0x00000011
+   8:	0000001d 	.word	0x0000001d
+   c:	00000000 	.word	0x00000000
+
+00000010 <start>:
+  10:	200a      	movs	r0, #10
+  12:	2100      	movs	r1, #0
+
+00000014 <loop>:
+  14:	1809      	adds	r1, r1, r0
+  16:	3801      	subs	r0, #1
+  18:	d1fc      	bne.n	14 <loop>
+
+0000001a <deadloop>:
+  1a:	e7fe      	b.n	1a <deadloop>
+
+0000001c <nmi_handler>:
+  1c:	4770      	bx	lr
