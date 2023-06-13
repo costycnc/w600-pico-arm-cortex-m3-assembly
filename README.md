@@ -1,5 +1,10 @@
 # w600-pico-costycnc-arm-cortex-m3-assembly
 
+install tool https://developer.arm.com/-/media/Files/downloads/gnu/12.2.mpacbti-rel1/binrel/arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi.exe
+
+Set environment variable path with bin path
+
+
 https://www.mikrocontroller.net/articles/ARM-ASM-Tutorial#Why_assembly?
 
 X  https://armasm.com/docs/getting-to-hello-world/basics/
