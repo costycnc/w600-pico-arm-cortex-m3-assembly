@@ -11,6 +11,8 @@ X  https://armasm.com/docs/getting-to-hello-world/basics/
 
 X  https://github.com/gpit2286/armasm-by-example/tree/master/02-hello-world
 
+X  asm usage https://www.ecb.torontomu.ca/~courses/coe718/lectures/ARM7-M3-Programming.pdf
+
       source https://community.silabs.com/s/article/disassembling-cortex-m-binary-bin-file-into-assembly?language=en_US
       
       C:\SiliconLabs\SimplicityStudio\v4\developer\toolchains\gnu_arm\4.9_2015q3\bin\arm-none-eabi-objdump.exe
