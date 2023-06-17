@@ -4,7 +4,7 @@
 
 <p dir="auto">I try to compile myself like this upper link but without success.I use w600-pico module like this <a href="https://www.wemos.cc/en/latest/w600/w600_pico.html">https://www.wemos.cc/en/latest/w600/w600_pico.html</a></p>
 
-<p dir="auto">So i decided to use arduino ide to compile this code write in assembler.So ... I succeeded to obtain elf file from this asm code.From arduino boards manager i installed Arduino SAM boards(32-bits ARM Cortex-M3.</p>
+<p dir="auto">So i decided to use arduino ide to compile this code write in assembler.So ... I succeeded to obtain elf file from this asm code.From arduino boards manager i installed Arduino SAM boards(32-bits ARM Cortex-M3).</p>
 
 
 
