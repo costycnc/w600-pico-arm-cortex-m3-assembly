@@ -19,7 +19,7 @@
 
       recipe.objcopy.hex.pattern="{runtime.tools.wmtool.path}/{compiler.wmtool.cmd}" "{runtime.tools.wmtool.path}" "{compiler.path}{compiler.obj.cmd}" "                  {build.path}/{build.project_name}.elf" "{build.path}/{build.project_name}.bin" "{secboot.img.path}"
       
-      
+       
       runtime.tools.wmtool.path={runtime.tools.wmtools.path}
       runtime.tools.wmtool.path=C:\Users\costycnc\AppData\Local\Arduino15\packages\w600\tools\wmtools\0.3.2
       
