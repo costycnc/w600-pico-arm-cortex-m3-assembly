@@ -4,13 +4,8 @@
 
 <p dir="auto">I try to compile myself like this upper link but without success.I use w600-pico module like this <a href="https://www.wemos.cc/en/latest/w600/w600_pico.html">https://www.wemos.cc/en/latest/w600/w600_pico.html</a></p>
 
-<p dir="auto">Looking through documentation, the SDK and the example code, I couldn't
-anything that worked for me.  The SDK wouldn't build with my toolchain
-and the download tools didn't work on a Mac.</p>
+<p dir="auto">So i decided to use arduino ide to compile this code write in assembler.So ... I succeeded to obtain elf file from this asm code.From arduino boards manager i installed Arduino SAM boards(32-bits ARM Cortex-M3.</p>
 
-<p dir="auto">Looking through documentation, the SDK and the example code, I couldn't
-anything that worked for me.  The SDK wouldn't build with my toolchain
-and the download tools didn't work on a Mac.</p>
 
 
 ![image](https://github.com/costycnc/w600-pico-costycnc-arm-cortex-m3-assembly/assets/3405110/b3e6dcde-d2b7-4ca1-acdc-7700f0dc8b46)
