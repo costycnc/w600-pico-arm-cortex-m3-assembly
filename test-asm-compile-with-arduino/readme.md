@@ -15,6 +15,24 @@
 
 
 
-      in platform.txt : 
-      build.path =temp folder
-      build.project_name= blink-asm.ino
+      platform.txt w600
+
+      recipe.objcopy.hex.pattern="{runtime.tools.wmtool.path}/{compiler.wmtool.cmd}" "{runtime.tools.wmtool.path}" "{compiler.path}{compiler.obj.cmd}" "                  {build.path}/{build.project_name}.elf" "{build.path}/{build.project_name}.bin" "{secboot.img.path}"
+      
+      
+      runtime.tools.wmtool.path={runtime.tools.wmtools.path}
+      runtime.tools.wmtool.path=C:\Users\costycnc\AppData\Local\Arduino15\packages\w600\tools\wmtools\0.3.2
+      
+      compiler.wmtool.cmd=wmtool.bat
+      
+      compiler.path={runtime.tools.gcc-arm-none-eabi.path}/bin/
+      compiler.path=C:\Users\costycnc\AppData\Local\Arduino15\packages\w600\tools\gcc-arm-none-eabi\4_9-2015q1-20150306/bin/
+      
+      compiler.obj.cmd=arm-none-eabi-objcopy
+      
+      build.path= temp
+      
+      build.project_name = name ino file ( example blink.ino )
+      
+      secboot.img.path={runtime.platform.path}/bootloaders/secboot/secboot.img
+      secboot.img.path=C:\Users\costycnc\AppData\Local\Arduino15\packages\w600\hardware\w600\0.2.6/bootloaders/secboot/secboot.img
