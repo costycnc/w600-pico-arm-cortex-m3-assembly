@@ -17,7 +17,8 @@
 
       platform.txt w600
 
-      recipe.objcopy.hex.pattern="{runtime.tools.wmtool.path}/{compiler.wmtool.cmd}" "{runtime.tools.wmtool.path}" "{compiler.path}{compiler.obj.cmd}" "                  {build.path}/{build.project_name}.elf" "{build.path}/{build.project_name}.bin" "{secboot.img.path}"
+      recipe.objcopy.hex.pattern="{runtime.tools.wmtool.path}/{compiler.wmtool.cmd}" "{runtime.tools.wmtool.path}" "{compiler.path}{compiler.obj.cmd}" 
+                                  "{build.path}/{build.project_name}.elf" "{build.path}/{build.project_name}.bin" "{secboot.img.path}"
       
        
       runtime.tools.wmtool.path={runtime.tools.wmtools.path}
