@@ -17,3 +17,4 @@
 
       in platform.txt : 
       build.path =temp folder
+      build.project_name= blink-asm.ino
