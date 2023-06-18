@@ -10,3 +10,5 @@ Now you can create firmware and upload to w600-pico ...
       The led of w600-pico will blinking!
 
 
+https://arduino.github.io/arduino-cli/0.23/platform-specification/
+
